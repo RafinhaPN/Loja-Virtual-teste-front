@@ -1,0 +1,20 @@
+
+.container_botoes{
+    margin: 15px;
+    justify-content: center;
+    display: flex;
+   
+}
+
+.item{
+    justify-content: center;
+    margin: 5px;
+    background: #494343;
+    width: 200px;
+    height: auto;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    
+}

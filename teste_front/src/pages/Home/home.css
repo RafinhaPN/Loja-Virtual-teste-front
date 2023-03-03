@@ -1,0 +1,70 @@
+.container{
+   border: #3F3F40 1px; 
+ justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px ;
+  max-width: 1020px;
+  height: auto;
+  
+}
+.produtos{
+    margin: auto ;  
+    width:247px;
+    height:228px;
+    Top:22px;
+    Left:11px; 
+   background: #FFFFFF;
+  box-shadow: 0px 3px 19px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+}
+.texto{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300px;
+font-size: 15px;
+line-height: 22px;
+color: #3F3F40;
+text-align: center;
+}
+
+.titulo{
+  background-color: chocolate;  
+ box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 58px;
+gap: 10px;
+width: 211.5px;
+height: 40px;
+background: #FFFFFF;
+border: 1px solid #BDBDBD;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 20px -1px;
+}
+
+.produto{
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container_imagem{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fotos{
+    justify-content: center;
+    display: flex;
+    height: auto;
+}
+img{
+    margin: 5px;
+    height: 228px;
+    width: 247px;
+
+}
